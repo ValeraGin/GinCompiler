@@ -1,0 +1,1 @@
+start GinCompiler.exe /gui

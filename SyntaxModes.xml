@@ -1,0 +1,5 @@
+<SyntaxModes version="1.0">
+	<Mode file       = "PAS-Mode.xshd"
+	      name       = "PAS"
+	      extensions = ".pas"/>
+</SyntaxModes>
