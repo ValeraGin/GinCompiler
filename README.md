@@ -19,7 +19,7 @@ program, unit, var, if, then, else, for, to, downto, do, while, repeat, until, g
  Да, да вы не ошиблись, можно просто написать оператор и это будет программа !
 
 Так выглядит программа HelloWorld.pas:
-Write('Hello World !!!');
+    Write('Hello World !!!');
 
 ! Если вы не используете блок begin..end то первое обьявление var будет восприниматься как глобальное, а не локальное.
 
@@ -28,14 +28,14 @@ Write('Hello World !!!');
 
 Например:
 
-{$reference 'System.Windows.Forms.dll'}
-{$apptype windows}
-uses 
-  System,
-  WF = System.Windows.Forms;
-begin
-  WF.Application.Run(WF.myForm);
-end.
+    {$reference 'System.Windows.Forms.dll'}
+    {$apptype windows}
+    uses 
+     System,
+     WF = System.Windows.Forms;
+    begin
+     WF.Application.Run(WF.myForm);
+    end.
 
 т.е. WF это сокращенное слово System.Windows.Forms теперь.
 
@@ -66,8 +66,8 @@ end.
 имя типа = тип; 
 
 Например:
-type
-  myint = integer;
+    type
+      myint = integer;
 
 Операторы
  реализованы все кроме: case, foreach, try, raise, lock
