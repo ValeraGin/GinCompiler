@@ -2,7 +2,6 @@
 Компилятор .NET на основе синтаксиса Паскаль
 
 Описание языка GinPascal
-
 зарезирвированные слова:
 program, unit, var, if, then, else, for, to, downto, do, while, repeat, until, goto, type, const, uses, procedure, function, begin, end, and, or, not, xor, div, mod, true, false, nil, array
 
@@ -58,7 +57,7 @@ end.
 имя: тип; - для описания переменых в блоке begin.end и в глобальных переменных
 
 
-Метки
+#Метки
 Так же как и в обычном паскале, только их не надо описывать.
 
 Описание типов
